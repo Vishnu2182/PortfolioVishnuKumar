@@ -141,7 +141,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Vishnu Kumar, a final year CSE undergrad from IET Lucknow,U.P.</p>
+            <p>Hello! I'm Vishnu, a final year CSE undergrad from IET Lucknow,U.P.</p>
 
             <p>
               I enjoy creating things that live on the internet, whether that be websites,
