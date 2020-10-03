@@ -154,7 +154,7 @@ const Nav = ({ isHome }) => {
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
       <StyledNav>
-        <TransitionGroup component={null}>
+        {/* <TransitionGroup component={null}>
           {isMounted && (
             <CSSTransition classNames={fadeClass} timeout={timeout}>
               <div className="logo" tabIndex="-1">
@@ -170,7 +170,10 @@ const Nav = ({ isHome }) => {
               </div>
             </CSSTransition>
           )}
-        </TransitionGroup>
+        </TransitionGroup> */}
+        <div>
+          <h3>Vishnu Kumar</h3>
+        </div>
 
         <StyledLinks>
           <ol>

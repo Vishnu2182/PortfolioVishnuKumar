@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['C++','Python','React','Django','JavaScript (ES6+)', 'HTML & (S)CSS', 'Node.js','Bootstrap','Machine Learning'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -150,10 +150,9 @@ const About = () => {
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I'm currently persuing B.Tech.(CSE) from {' '}
+              <a href="https://www.ietlucknow.ac.in/">IET LUCKNOW</a>,Looking for SDE Role in any Company where I can improve and utilise my skills.I am working
+              on a wide variety of interesting and meaningful projects on a daily basis and preparing for Placement Interviews.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
