@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Icon } from '@components/icons';
+// import logo from "https://tinyurl.com/yc565auk";
 
 const StyledProjectsSection = styled.section`
   display: flex;
@@ -172,9 +173,10 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>For Other Noteworthy Projects</h2>
+      <h4>Visit my Github Profile</h4>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+      {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
       </Link>
 
@@ -243,7 +245,8 @@ const Projects = () => {
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
+      {/* <img src={logo} alt="logo"/> */}
     </StyledProjectsSection>
   );
 };
